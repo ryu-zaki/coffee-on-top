@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brown-dark: #4B2E2A;
+  --color-brown-normal: #D9A05B;
+  --color-brown-light: #FFE0B8;
+  --color-gray-light: #D3D2D2;
+  --color-dark: #222;
+  --color-orange: #F77F00;
+  --color-orange-light: #F5E6D3;
+  --color-img-overlay: rgba(0,0,0,0.4);
+
+  --font-montserrat: "Montserrat", serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  --gradient-circle: linear-gradient(
+    -150deg, #D9A05B, #F5E6D3
+  );
+
+  --gradient-gallery: linear-gradient(
+     180deg, var(--color-brown-normal), var(--color-brown-light), white
+  );
+
+  --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-card: 0 10px 25px rgba(0, 0, 0, 0.12);
+  --shadow-solid: 0px 5px 15px rgba(0, 0, 0, 0.35);
+
+
+  --breakpoint-xs: 500px;
+}
+
+* {
+  font-family: var(--font-poppins);
+/*   color: var(--color-brown-dark); */
+  box-sizing: border-box;
+}
