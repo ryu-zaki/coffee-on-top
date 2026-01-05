@@ -14,7 +14,7 @@ const GallerySection = () => {
 
           <div className="text-center flex flex-col items-center gap-3 xl:gap-6">
            <PageMarker sectionCategory="Gallery" />
-           <PageTitle title={"brews & moments"}  />
+           <PageTitle title={"brews & moments"} description={"A glimpse into the flavors, faces, and cozy atmosphere that make every visit unforgettable."}  />
           </div>
 
           <div className="mt-5 xs:mt-10 lg:w-[90%] xl:w-[80%]">

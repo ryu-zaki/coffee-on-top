@@ -5,6 +5,13 @@ import { Route, Routes } from 'react-router'
 import AppLayout from './components/AppLayout'
 import GallerySection from './components/Home Page/GallerySection'
 import FeaturedProduct from './components/Home Page/FeaturedProduct'
+import BestSellers from './components/Home Page/BestSellers'
+
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 function App() {
 
@@ -16,9 +23,10 @@ function App() {
         <Route index element={
           <>
            <LandingPage />
-            <div className="mt-32 flex flex-col gap-20 sm:mt-44 md:mt-64 xl:mt-60 mb-52 xl:gap-40">
+            <div className="mt-32 flex flex-col gap-20 sm:mt-44 md:mt-64 xl:mt-60 xl:gap-40">
               <GallerySection />
               <FeaturedProduct />
+              <BestSellers />
             </div>
            
           </>
