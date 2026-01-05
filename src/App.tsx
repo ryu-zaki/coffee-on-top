@@ -11,6 +11,7 @@ import BestSellers from './components/Home Page/BestSellers'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import MetricsSection from './components/Home Page/MetricsSection'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <GallerySection />
               <FeaturedProduct />
               <BestSellers />
+              <MetricsSection />
             </div>
            
           </>
