@@ -5,10 +5,10 @@ const AppLayout = () => {
 
     return (
         <>
-        <div className="px-2 text-brown-dark container mx-auto">
+        
+        <div className="text-brown-dark mx-auto">
           <NavigationBar />
           <Outlet />
-          
         </div>
          
         </>

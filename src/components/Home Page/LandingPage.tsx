@@ -75,7 +75,7 @@ const HomePage = () => {
       <>
         <img className="hidden xl:block w-[28em] absolute top-[20em] -right-[5em] -z-10 2xl:w-[40em] 2xl:top-[25em] 2xl:-right-[18em]" src={"assets/bean-bg.png"}  />  
 
-        <div className="mt-0 lg:min-h-[80vh] relative lg:flex lg:items-center">
+        <div className="mt-0 lg:h-[80vh] lg:max-h-[50em] relative lg:flex lg:items-center">
            <div className="lg:flex w-full justify-between items-center lg:gap-20 xl:gap-44 xl:items-start xl:mt-[2em]" > 
             
             <CupImages visibility="hidden lg:flex" />

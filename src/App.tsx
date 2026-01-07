@@ -23,14 +23,20 @@ function App() {
       <Route path="/" element={<AppLayout />}>
         <Route index element={
           <>
-           <LandingPage />
-            <div className="mt-32 flex flex-col gap-20 sm:mt-44 md:mt-64 xl:mt-60 xl:gap-40">
+          
+          <div className="px-2 container mx-auto mb-20 xl:mb-40">
+              <LandingPage />
+            <div className="mt-32 mx-auto flex flex-col gap-20 sm:mt-44 md:mt-64 xl:mt-60 xl:gap-40">
               <GallerySection />
               <FeaturedProduct />
               <BestSellers />
-              <MetricsSection />
             </div>
-           
+          </div>
+          
+          <div>
+             <MetricsSection />
+          </div>
+          
           </>
           } />
 

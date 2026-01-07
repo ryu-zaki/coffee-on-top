@@ -28,7 +28,7 @@ const NavigationBar = () => {
 
     return (
       <>
-        <div className="mb-5 xl:mb-0">
+        <div className="mb-5 px-2 container mx-auto xl:mb-0">
          <div className="flex justify-between border-b-2 border-b-gray-light py-3 md:items-center md:py-5 2xl:py-8">
            <div className="flex items-center gap-2 xl:gap-4 xl:text-lg 2xl:text-xl">
              <img className="w-5 xl:w-6 2xl:w-8" src="assets/bean-dark.png" alt="" />

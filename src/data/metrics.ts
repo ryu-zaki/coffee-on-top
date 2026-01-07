@@ -7,9 +7,9 @@ const CreateMetric = (name: string, category: string) => {
 
 const metrics = [
     CreateMetric("2yrs", "Experience"),
-    CreateMetric("1M+", "Experience"),
-    CreateMetric("84", "Experience"),
-    CreateMetric("2yrs", "Experience")
+    CreateMetric("1M+", "Happy Customers"),
+    CreateMetric("84", "Local Branches"),
+    CreateMetric("1k", "Products Available")
 ]; 
 
 export default metrics;
