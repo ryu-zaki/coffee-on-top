@@ -1,5 +1,6 @@
 import { Outlet } from "react-router"
 import NavigationBar from "./NavigationBar";
+import Footer from "./Footer";
 
 const AppLayout = () => {
 
@@ -9,6 +10,7 @@ const AppLayout = () => {
         <div className="text-brown-dark mx-auto">
           <NavigationBar />
           <Outlet />
+          <Footer />
         </div>
          
         </>
